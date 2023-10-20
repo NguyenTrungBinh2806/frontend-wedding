@@ -888,7 +888,7 @@ button:hover {
     position: absolute;
     left: 30%;
     margin-top: 22%;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
