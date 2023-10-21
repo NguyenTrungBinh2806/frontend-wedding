@@ -45,6 +45,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.navbar-content:hover {
+  cursor: pointer;
+  /* box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75); */
+  font-weight: 800;
+}
+
 
 .logo {
   width: 120px;
