@@ -62,7 +62,7 @@ body {
   }
   .navbar {
     width: 90%;
-    height: 60px;
+    height: 80px;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ body {
   }
   .navbar {
     width: 90%;
-    height: 50px;
+    height: 80px;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -107,7 +107,7 @@ body {
   }
   .navbar-content {
     font-family: Cormorant;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
