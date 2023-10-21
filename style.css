@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin-left: 0;
   margin-right: 0;
@@ -981,3 +985,157 @@ button:hover {
   }
 }
 
+
+
+#area-5 {
+  background: #FBF8F1;
+  width: 100%;
+  min-height: 100%;
+  max-height: 1400px; 
+  padding: 30px 0px 0px 30px;
+}
+
+#area-5 .contain-1 {
+  width: 100%;
+  max-height: 900px;
+  
+  /* height: 900px; */
+  /* text-align: center; */
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.left {
+  width: 70%;
+  height: 100%;
+  /* height: 900px; */
+  /* background-color: red; */
+}
+
+.right {
+  width: 30%;
+  height: 100%;
+  /* height: 900px; */
+  /* background-color: green; */
+}
+
+.child-1 {
+  width: 100%;
+  height: 50%;
+  /* background-color: blue; */
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.child-2 {
+  width: 100%;
+  height: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.child-left {
+  width: 70%;
+  height: 100%;
+  /* background-color: pink; */
+}
+
+.child-right {
+  width: 30%;
+  height: 100%;
+  /* background-color: orange; */
+}
+
+.child-left-1 {
+  width: 30%;
+  height: 100%;
+  /* background-color: purple; */
+  
+}
+
+.child-right-1 {
+  width: 70%;
+  height: 100%;
+  /* background-color: brown; */
+  text-align: center;
+}
+
+.image5 {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  /* border white color and 10px */
+  border: 10px solid #FFFFFF;
+
+}
+
+.image6 {
+  width: 80%;
+  height: 440px;
+  object-fit: cover;
+  /* border white color and 10px */
+  border: 10px solid #FFFFFF;
+}
+
+.child-title {
+  color: var(--brown, #C3937C);
+  font-family: Cormorant;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 96px */
+}
+
+.child-text {
+  color: var(--text-2, #787878);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 31.2px */
+}
+
+
+.contain-2 {
+  width: 100%;
+  /* max-height: 500px; */
+  /* height: 500px; */
+  /* text-align: center; */
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  margin-top: 20px;
+
+}
+
+.left-1 {
+  width: 25%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.middle-1 {
+  width: 50%;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.right-1 {
+  width: 25%;
+  height: 100%;
+  /* background-color: green; */
+}
