@@ -708,7 +708,6 @@ font-weight: 800;
 
 .Asset4 {
   width: 30%;
-  /* height: 70%; */
   object-fit: cover;
   position: absolute;
 }
@@ -720,7 +719,6 @@ font-weight: 800;
 /* Area 4 */
 #area-4{
   background-color: #FFFFFF;
-  /* background-color: aqua; */
   width: 100%;
   min-height: 307px;
   margin-bottom: 10px;
@@ -729,8 +727,6 @@ font-weight: 800;
 #area-4 .content-head {
   width: 100%;
   max-height: 250px;
-  /* text-align: center; */
-  /* background-color: green; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -901,12 +897,10 @@ button:hover {
 
 .image4{
   width: 20%;
-  /* height: 100%; */
   object-fit: contain;
   position: absolute;
   left: 23%;
   margin-top: 15%;
-  /* background-color: red; */
 }
 
 
@@ -925,30 +919,6 @@ button:hover {
   height: 100%;
   object-fit: contain;
 }
-/* .item .avatar{
-  display: block;
-  margin:50px auto 10px;
-  width:100px;
-  height:150px;
-  object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0 10px 15px #7e878d;
-}
-.item .content{
-  padding:30px;
-  font-family: monospace;
-}
-.item .content table td{
-  padding:10px 0;
-  border-bottom: 1px solid #AEC0CE;
-}
-.item .content table td:nth-child(2){
-  text-align: right;
-}
-.item .nameGroup{
-  text-align: center;
-  border-bottom:none!important;
-} */
 #list{
   display: flex;
   width:max-content;
@@ -958,12 +928,9 @@ button:hover {
   max-width: 100%;
   overflow: auto;
   margin: 0 auto 50px;
-  /* background-color: red; */
   scroll-behavior: smooth;
   scroll-snap-type: both;
 }
-
-/* add animation */
 
 
 #formList::-webkit-scrollbar{
@@ -986,12 +953,10 @@ button:hover {
   }
   .image4{
     width: 30%;
-    /* height: 100%; */
     object-fit: contain;
     position: absolute;
     left: 30%;
     margin-top: 22%;
-    /* background-color: red; */
   }
 }
 
@@ -1002,8 +967,6 @@ button:hover {
   width: 100%;
   min-height: 100%;
   max-height: 1400px; 
-  /* padding: 30px 0px 0px 30px; */
-  /* padding:  0px 30px 0px 30px; */
 }
 
 
@@ -1011,36 +974,25 @@ button:hover {
 #area-5 .contain-1 {
   width: 100%;
   max-height: 900px;
-  
-  /* height: 900px; */
-  /* text-align: center; */
-  /* background-color: green; */
   display: flex;
-  /* flex-wrap: wrap; */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .left {
   width: 70%;
   height: 100%;
-  /* height: 900px; */
-  /* background-color: red; */
 }
 
 .right {
   width: 30%;
   height: 100%;
-  /* height: 900px; */
-  /* background-color: green; */
 }
 
 .child-1 {
   width: 100%;
   height: 50%;
-  /* background-color: blue; */
+   
   display: flex;
-  /* flex-direction: row; */
+   
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -1049,7 +1001,7 @@ button:hover {
 .child-2 {
   width: 100%;
   height: 50%;
-  /* background-color: yellow; */
+   
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1061,13 +1013,13 @@ button:hover {
 .child-left {
   width: 70%;
   height: 100%;
-  /* background-color: pink; */
+  
 }
 
 .child-right {
   width: 30%;
   height: 100%;
-  /* background-color: orange; */
+  
 }
 
 .child-left-1 {
@@ -1080,7 +1032,7 @@ button:hover {
 .child-right-1 {
   width: 70%;
   height: 100%;
-  /* background-color: brown; */
+ 
   text-align: center;
 }
 
@@ -1088,7 +1040,7 @@ button:hover {
   width: 80%;
   height: 200px;
   object-fit: cover;
-  /* border white color and 10px */
+ 
   border: 10px solid #FFFFFF;
 
 }
@@ -1097,7 +1049,7 @@ button:hover {
   width: 80%;
   height: 440px;
   object-fit: cover;
-  /* border white color and 10px */
+
   border: 10px solid #FFFFFF;
 }
 
@@ -1123,14 +1075,8 @@ button:hover {
 
 .contain-2 {
   width: 100%;
-  /* max-height: 500px; */
-  /* height: 500px; */
-  /* text-align: center; */
-  /* background-color: green; */
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center;
-  align-items: center; */
   margin-top: 20px;
 
 }
@@ -1138,19 +1084,19 @@ button:hover {
 .left-1 {
   width: 25%;
   height: 100%;
-  /* background-color: red; */
+
 }
 
 .middle-1 {
   width: 50%;
   height: 100%;
-  /* background-color: green; */
+
 }
 
 .right-1 {
   width: 25%;
   height: 100%;
-  /* background-color: green; */
+
 }
 
 
@@ -1160,13 +1106,11 @@ button:hover {
     width: 100%;
     min-height: 100%;
     max-height: 1400px; 
-    /* padding: 0px 10px 0px 10px; */
   }
   .image5 {
     width: 80%;
     height: 150px;
     object-fit: cover;
-    /* border white color and 10px */
     border: 7px solid #FFFFFF;
   
   }
@@ -1175,7 +1119,6 @@ button:hover {
     width: 80%;
     height: 340px;
     object-fit: cover;
-    /* border white color and 10px */
     border: 7px solid #FFFFFF;
   }
   
@@ -1206,13 +1149,11 @@ button:hover {
     width: 100%;
     min-height: 100%;
     max-height: 1400px; 
-    /* padding: 0px 5px 0px 5px; */
   }
   .image5 {
     width: 80%;
     height: 100px;
     object-fit: cover;
-    /* border white color and 10px */
     border: 3px solid #FFFFFF;
   
   }
@@ -1221,7 +1162,6 @@ button:hover {
     width: 80%;
     height: 240px;
     object-fit: cover;
-    /* border white color and 10px */
     border: 3px solid #FFFFFF;
   }
   
@@ -1283,7 +1223,7 @@ button:hover {
 
 .image8 {
   object-fit: cover;
-  width: 70%;
+  width: 40%;
   height: 30%;
   /* margin: 0 auto; */
   position: absolute;
@@ -1296,7 +1236,6 @@ button:hover {
     background-color: #FFFFFF;
     text-align: center;
     padding: 30px 0 30px 0;
-    /* padding: 20px 5% 20px 5%; */
   }
   
   .image7 {
@@ -1326,7 +1265,6 @@ button:hover {
     background-color: #FFFFFF;
     text-align: center;
     padding: 20px 0 20px 0;
-    /* padding: 20px 5% 20px 5%; */
   }
   
   .image7 {
