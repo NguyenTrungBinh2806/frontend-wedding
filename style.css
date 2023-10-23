@@ -449,7 +449,6 @@ font-weight: 800;
 
 .title {
   /* width: 80%; */
-  background-color: red;
   color: var(--brown, #C3937C);
   font-family: Cormorant;
   font-size: 60px;
@@ -497,6 +496,7 @@ font-weight: 800;
   @media screen and (max-width: 568px) {
     .title {
       /* width: 100%; */
+      background-color: red;
       color: var(--brown, #C3937C);
       font-family: Cormorant;
       font-size: 25px;
