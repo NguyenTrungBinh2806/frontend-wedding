@@ -455,7 +455,7 @@ font-weight: 800;
   font-style: normal;
   font-weight: 500;
   line-height: 120%; /* 96px */
-  /* padding: 0 5% 0 5%; */
+  padding: 0 5% 0 5%;
 }
 
 .text {
@@ -466,7 +466,7 @@ font-weight: 800;
   font-style: normal;
   font-weight: 400;
   line-height: 130%; /* 31.2px */
-  /* padding: 0 5% 0 5%; */
+  padding: 0 5% 0 5%;
 }
 
 @media  screen and  (max-width: 768px) {
@@ -478,7 +478,7 @@ font-weight: 800;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
-    /* margin: 0 5% 0 5%; */
+    padding: 0 5% 0 5%;
   }
 
 
@@ -490,20 +490,20 @@ font-weight: 800;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
-    /* margin: 0 5% 0 5%; */
+    padding: 0 5% 0 5%;
   }
 
   @media screen and (max-width: 568px) {
     .title {
       /* width: 100%; */
-      background-color: red;
+      /* background-color: red; */
       color: var(--brown, #C3937C);
       font-family: Cormorant;
       font-size: 25px;
       font-style: normal;
       font-weight: 500;
       line-height: 120%;
-      /* margin: 0 5% 0 5%; */
+      padding: 0 5% 0 5%;
     }
     .text {
       /* width: 80%; */
@@ -513,7 +513,7 @@ font-weight: 800;
       font-style: normal;
       font-weight: 400;
       line-height: 130%;
-      /* margin: 0 5% 0 5%; */
+      padding: 0 5% 0 5%;
     }
     
   }
