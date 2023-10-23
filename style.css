@@ -449,6 +449,7 @@ font-weight: 800;
 
 .title {
   /* width: 80%; */
+  background-color: red;
   color: var(--brown, #C3937C);
   font-family: Cormorant;
   font-size: 60px;
