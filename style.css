@@ -58,8 +58,6 @@ body {
   background-color: #FFFFFF;
 }
 
-
-/* responsive fontsize of navbar-content */
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
@@ -171,11 +169,9 @@ body {
   #area-1{
     background-color: #FAF7EF;;
     width: 100%;
-    /* margin: 0 auto; */
   }
   #area-1 .content-left {
     width: 100%;
-    /* height: 100%; */
     text-align: center;
   }
   #area-1 .content-right {
@@ -184,20 +180,13 @@ body {
 }
 .content-left-text-1 {
   height: 300px;
-  /* margin-top: 100px;
-  margin-left: 50px; */
   display: flex;
-  /* background-color: aqua; */
   align-items: center;
   justify-content: center;
 }
 @media screen and (max-width: 768px) {
   .content-left-text-1 {
-    /* margin-top: 70px;
-    margin-left: 20px; */
     display: flex;
-    /* flex-wrap: wrap;
-    flex-direction: row; */
     align-items: center;
     justify-content: center;
   }
@@ -264,7 +253,6 @@ body {
     font-style: normal;
     font-weight: 400;
     padding-top: 120px;
-    /* line-height: normal; */
   }
 }
 
@@ -291,20 +279,18 @@ body {
   height: 30px;
 }
 .text-month {
-color: #333;
-text-align: center;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-/* line-height: normal; */
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .content-left-text-3 {
   display: flex;
   width: 65%;
   height: 100px;
-  /* justify-content: center; */
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
@@ -370,7 +356,6 @@ font-weight: 800;
     font-size: 15px;
     font-style: normal;
     font-weight: 800;
-    /* line-height: normal; */
     }
 }
 
@@ -385,12 +370,9 @@ font-weight: 800;
 
 #area-2{
   background-color: #FFFFFF;
-  /* background-color: green; */
   width: 100%;
   min-height: 607px;
-  /* height: max-content; */
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -399,18 +381,14 @@ font-weight: 800;
 #area-2 .content-left {
   width: 40%;
   height: 100%;
-  /* text-align: center; */
-  /* background-color: green; */
 }
 #area-2 .content-right {
   width: 60%;
   height: 100%;
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
   bottom: 10px;
 }
 
@@ -424,9 +402,6 @@ font-weight: 800;
   }
   #area-2 .content-left {
     width: 100%;
-    /* height: 100%; */
-    /* text-align: left; */
-    /* background-color: green; */
   }
   #area-2 .content-right {
     width: 100%;
@@ -459,7 +434,6 @@ font-weight: 800;
 }
 
 .text {
-  /* width: 80%; */
   color: var(--text-2, #787878);
   font-family: Montserrat;
   font-size: 20px;
@@ -471,7 +445,6 @@ font-weight: 800;
 
 @media  screen and  (max-width: 768px) {
   .title {
-    /* width: 100%; */
     color: var(--brown, #C3937C);
     font-family: Cormorant;
     font-size: 45px;
@@ -483,7 +456,6 @@ font-weight: 800;
 
 
   .text {
-    /* width: 80%; */
     color: var(--text-2, #787878);
     font-family: Montserrat;
     font-size: 15px;
@@ -495,8 +467,6 @@ font-weight: 800;
 
   @media screen and (max-width: 568px) {
     .title {
-      /* width: 100%; */
-      /* background-color: red; */
       color: var(--brown, #C3937C);
       font-family: Cormorant;
       font-size: 25px;
@@ -562,12 +532,9 @@ font-weight: 800;
 /* Area 3 */
 #area-3{
   background-color: #FAF7EF;
-  /* background-color: aqua; */
   width: 100%;
   min-height: 607px;
-  /* height: max-content; */
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -576,19 +543,11 @@ font-weight: 800;
 #area-3 .content-left {
   width: 40%;
   height: 100%;
-  /* text-align: center; */
-  /* background-color: green; */
 }
 #area-3 .content-right {
   width: 60%;
   height: 100%;
-  /* background-color: red; */
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center; */
-  /* align-items: center; */
   bottom: 10px;
 }
 
@@ -602,19 +561,10 @@ font-weight: 800;
   }
   #area-3 .content-left {
     width: 100%;
-    /* height: 100%; */
-    /* text-align: left; */
-    /* background-color: green; */
   }
   #area-3 .content-right {
     width: 100%;
     text-align: center;
-    /* background-color: red; */
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
   }
 }
 
