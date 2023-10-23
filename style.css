@@ -1244,3 +1244,108 @@ button:hover {
     line-height: 130%; /* 31.2px */
   }
 }
+
+
+
+.footer {
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  /* padding: 20px 5% 20px 5%; */
+}
+
+.image7 {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.inline-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  width: 25px;
+  height: 25px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: #FF7A03;
+  margin: 50px 2% 0 2%;
+}
+
+.image8 {
+  object-fit: cover;
+  width: 70%;
+  height: 30%;
+  /* margin: 0 auto; */
+  position: absolute;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    /* padding: 20px 5% 20px 5%; */
+  }
+  
+  .image7 {
+    width: 250px;
+    height: 170px;
+    object-fit: contain;
+  }
+
+  .footer-text {
+    width: 23px;
+    height: 23px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #FF7A03;
+    margin: 50px 2% 0 2%;
+  }
+  
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    /* padding: 20px 5% 20px 5%; */
+  }
+  
+  .image7 {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  .footer-text {
+    width: 20px;
+    height: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #FF7A03;
+    margin: 50px 2% 0 2%;
+  }
+  
+}
