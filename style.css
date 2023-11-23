@@ -138,7 +138,7 @@ body {
   background-color: #FAF7EF;
   width: 100%;
   /* min-height: 507px; */
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
 
@@ -378,7 +378,7 @@ body {
   background-color: #FFFFFF;
   width: 100%;
   /* min-height: 607px; */
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -544,7 +544,7 @@ body {
   background-color: #FAF7EF;
   width: 100%;
   /* min-height: 607px; */
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -685,8 +685,8 @@ body {
 #area-4{
   background-color: #FFFFFF;
   width: 100%;
-  /* min-height: 307px; */
-  height: 100vh;
+  min-height: 307px;
+  /* min-height: 100vh; */
   margin-bottom: 10px;
 }
 
@@ -936,7 +936,7 @@ button:hover {
   padding-left: 2%;
   padding-right: 2%;
   /* max-height: 1400px;  */
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -950,12 +950,12 @@ button:hover {
 }
 
 .left {
-  width: 70%;
+  width: 80%;
   height: 100%;
 }
 
 .right {
-  width: 30%;
+  width: 20%;
   height: 100%;
 }
 
