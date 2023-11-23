@@ -53,8 +53,8 @@ body {
 
 
 .logo {
-  width: 120px;
-  height: 80px;
+  width: 220px;
+  height: 100px;
   background-color: #FFFFFF;
 }
 
@@ -137,7 +137,8 @@ body {
 #area-1{
   background-color: #FAF7EF;
   width: 100%;
-  min-height: 507px;
+  /* min-height: 507px; */
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
 
@@ -197,32 +198,36 @@ body {
 .text-name-1 {
   color: var(--brown, #C3937C);
   font-family: Alex Brush;
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 116px;
   font-style: normal;
   font-weight: 400;
 }
 .text-name-2{
   color: var(--brown, #C3937C);
   font-family: Alex Brush;
-  font-size: 178px;
+  /* font-size: 178px; */
+  font-size: 300px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   opacity: 0.5;
   position: absolute;
-  top: 0.5%;
+  /* top: 0.5%; */
+  top: -25%;
   /* top: 5%; */
-  transform: translateX(50%);
+  transform: translateX(30%);
   z-index: 150;
 }
 
 .text-name-3 {
   color: var(--brown, #C3937C);
   font-family: Alex Brush;
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 116px;
   font-style: normal;
   font-weight: 400;
-  padding-top: 120px;
+  padding-top: 220px;
   /* line-height: normal; */
 }
 
@@ -277,6 +282,7 @@ body {
 .content-left-text-2 {
   text-align: center;
   height: 30px;
+  /* margin-top: 50px; */
 }
 .text-month {
   color: #333;
@@ -365,13 +371,14 @@ body {
   max-width: 80%;
   min-height: 300px;
   max-height: auto;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #area-2{
   background-color: #FFFFFF;
   width: 100%;
-  min-height: 607px;
+  /* min-height: 607px; */
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -379,8 +386,9 @@ body {
 }
 
 #area-2 .content-left {
-  width: 40%;
+  width: 38%;
   height: 100%;
+  margin-left: 2%;
 }
 #area-2 .content-right {
   width: 60%;
@@ -389,6 +397,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   bottom: 10px;
 }
 
@@ -501,7 +510,8 @@ body {
   height: 23%;
   object-fit: cover;
   position: absolute;
-  margin-top: 23%;
+  left: 47%;
+  margin-top: 30%;
 }
 
 @media screen and (max-width: 768px) {
@@ -533,7 +543,8 @@ body {
 #area-3{
   background-color: #FAF7EF;
   width: 100%;
-  min-height: 607px;
+  /* min-height: 607px; */
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -541,8 +552,11 @@ body {
 }
 
 #area-3 .content-left {
-  width: 40%;
+  width: 38%;
   height: 100%;
+  margin-left: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 #area-3 .content-right {
   width: 60%;
@@ -561,6 +575,7 @@ body {
   }
   #area-3 .content-left {
     width: 100%;
+
   }
   #area-3 .content-right {
     width: 100%;
@@ -581,7 +596,7 @@ body {
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 96px */
+  line-height: 120%; 
 }
 
 .text3 {
@@ -670,7 +685,8 @@ body {
 #area-4{
   background-color: #FFFFFF;
   width: 100%;
-  min-height: 307px;
+  /* min-height: 307px; */
+  height: 100vh;
   margin-bottom: 10px;
 }
 
@@ -857,10 +873,10 @@ button:hover {
  /* Carosel test */
 .item{
   width: 25%;
-  max-height:500px;
+  max-height: 500px;
   overflow: hidden;
   transition: 0.5s;
-  margin:10px;
+  margin: 10px;
   scroll-snap-align: start;
 }
 
@@ -871,10 +887,11 @@ button:hover {
 }
 #list{
   display: flex;
-  width:max-content;
+  width: max-content;
+  margin-left: 20px;
 }
 #formList{
-  width: 1580px;
+  /* width: 1580px; */
   max-width: 100%;
   overflow: auto;
   margin: 0 auto 50px;
@@ -914,9 +931,14 @@ button:hover {
 
 #area-5 {
   background: #FBF8F1;
-  width: 100%;
+  width: 96%;
   min-height: 100%;
-  max-height: 1400px; 
+  padding-left: 2%;
+  padding-right: 2%;
+  /* max-height: 1400px;  */
+  height: 100vh;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 
@@ -987,16 +1009,15 @@ button:hover {
 }
 
 .image5 {
-  width: 80%;
+  width: 100%;
   height: 200px;
   object-fit: cover;
- 
   border: 10px solid #FFFFFF;
 
 }
 
 .image6 {
-  width: 80%;
+  width: 100%;
   height: 440px;
   object-fit: cover;
 
@@ -1053,7 +1074,9 @@ button:hover {
 @media  screen and (max-width: 768px) {
   #area-5 {
     background: #FBF8F1;
-    width: 100%;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
     min-height: 100%;
     max-height: 1400px; 
   }
