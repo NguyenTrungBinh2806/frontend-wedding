@@ -206,6 +206,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .content-left-text-1 {
+    /* height: auto; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -387,7 +388,7 @@ body {
 .Rectangle {
   color: #EAD9C9;
   /* min-width: 300px; */
-  max-width: 80%;
+  max-width: 100%;
   min-height: 300px;
   max-height: auto;
   margin-top: 20px;
@@ -519,7 +520,7 @@ body {
 }
 
 .image {
-  width: 80%;
+  width: 90%;
   height: 80%;
   object-fit: cover;
 }
